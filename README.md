@@ -1,4 +1,4 @@
-# LightCloseRandom  【定位：环境类插件】
+# SCPSL/LightCloseRandom  【定位：环境类插件】
 ### 中文名 灯光概率性关闭
 
 ## 简介说用
