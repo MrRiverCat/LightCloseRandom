@@ -11,10 +11,11 @@ namespace LightCloseRandom
     class LightCloseRandomHandler : IEventHandlerRoundStart
     {
         public Plugin plugin;
-       
+        //是否启用
         private bool enable;
-
-        private float setValue;
+        //设置概率值
+        private float setValue = 0.5f;
+        //存储房间
         private List<Room> roomsList;
 
         public LightCloseRandomHandler(Plugin plugin)
@@ -27,7 +28,8 @@ namespace LightCloseRandom
             //获取配置信息
             setValue = plugin.GetConfigFloat("Set_Light_Enable_Percent");
 
-            if (setValue == 0f) { setValue = 0.5f; }
+            //假设设置值为0f,后续操作不执行
+            if (setValue == 0f) { return; }
             //获取房间
             roomsList = ev.Server.Map.GetRooms();
 
