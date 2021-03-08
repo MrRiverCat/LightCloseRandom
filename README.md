@@ -1,5 +1,5 @@
-# [Smod2]SCPSL/LightCloseRandom  【定位：环境类插件】
-#### 中文名 灯光概率性关闭
+# [Smod2]SCPSL/LightCloseRandom
+### [中文名] 灯光概率性关闭
 #### 基于SCPSL提供的Smod2进行的二次创作
 
 ## 简介说用
