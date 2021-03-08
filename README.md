@@ -1,5 +1,6 @@
-# SCPSL/LightCloseRandom  【定位：环境类插件】
-### 中文名 灯光概率性关闭
+# [Smod2]SCPSL/LightCloseRandom  【定位：环境类插件】
+#### 中文名 灯光概率性关闭
+#### 基于SCPSL提供的Smod2进行的二次创作
 
 ## 简介说用
 ### 【暂时】以游戏开局[OnRoundStart]为初始判断，概率触发插件效果——‘灯光管制’。以增强场景内部的照明道具使用。
